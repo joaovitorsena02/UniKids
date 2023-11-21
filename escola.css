@@ -1,0 +1,96 @@
+/* Logo */
+body {
+  background-image: url("img/181.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+}
+
+/* Fim da Logo */
+
+
+/* Diferenciais */
+h1 {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fim dos Diferenciais */
+
+/* Cards */
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-info {
+  margin-top: 12px;
+}
+
+.card-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.card-info p {
+  font-size: 1em;
+  color: #666;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Fim dos Cards */
+
+.texto {
+  display: flex;
+  justify-content: center;
+}
+
+/*Rodapé */
+.footer {
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  left: -450px;
+}
+
+/*Fim do Rodapé */
